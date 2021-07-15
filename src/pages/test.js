@@ -1,9 +1,5 @@
-const Test = () => (
-	<>
-		<h1>Title</h1>
-		
-		<h1>Title 2</h1>
-	</>
-)
+import Title from '../components/Title'
+
+const Test = () => <Title content="heading" />
 
 export default Test
