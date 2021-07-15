@@ -9,7 +9,7 @@ We will approach the best practices to create accessible components based on the
 ## :wrench: Technologies
 - [Next.js](https://nextjs.org/)
 - [jest-axe](https://www.npmjs.com/package/jest-axe)
-- [commitzen](https://github.com/commitizen/cz-cli) (commits template)
+- [commitzen](https://github.com/commitizen/cz-cli)
 - [husky](https://www.npmjs.com/package/husky)
 
 ## :computer: Getting Started
