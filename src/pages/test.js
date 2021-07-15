@@ -5,3 +5,5 @@ const Test = () => (
 		<h1>Title 2</h1>
 	</>
 )
+
+export default Test
