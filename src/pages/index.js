@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Title from '../components/Title'
 
 const Home = () => (
     <>
@@ -7,6 +8,8 @@ const Home = () => (
             <meta name="description" content="Ecommerce Acessível" />
             <link rel="icon" href="/favicon.ico" />
         </Head>
+    
+        <Title content="heading" />
     </>
 )
 
