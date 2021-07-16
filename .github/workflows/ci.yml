@@ -1,0 +1,16 @@
+name: Test
+on:
+  pull_request:
+    branches:
+      - master
+    types: [opened, synchronize, reopened, closed]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install depencencies
+        run: yarn install --frozen-lockfile
+      - name: Build Packages
+        run: yarn build
+      - name: Test
+        run: yarn test
