@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from '../components/Image/Image'
 
 const Home = () => (
     <>
