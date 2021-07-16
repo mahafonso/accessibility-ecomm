@@ -8,5 +8,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Install depencencies
+        run: yarn install --frozen-lockfile
+      - name: Build Packages
+        run: yarn build
       - name: Test
-        run: npm run test
+        run: yarn test
